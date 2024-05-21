@@ -2,9 +2,21 @@
 {% block env %}import assert from "assert";{% endblock env %}
 
 {% block start %}
-function sumTwo(a: number, b: number): number {
+const characters: string = 
+    'あいうえお' +
+    'かけきくこ' + 
+    'さしすせそ' + 
+    'たちつてと' + 
+    'なにぬねの' + 
+    'はひふへほ' + 
+    'まみむめも' + 
+    'や　ゆ　よ' + 
+    'わ　　　を' +
+    'んゃゅょっ'
+
+function fromRomanji(romanji: string): string {
     // your code here
-    return 0;
+    return '';
 }
 {% endblock start %}
 
