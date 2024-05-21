@@ -11,26 +11,41 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": "hiragana",
+            "answer": "ひらがな",
+            "explanation": "(hi) (ra) (ga) (na)"
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": "arigatou",
+            "answer": "ありがとう",
+            "explanation": "(a) (ri) (ga) (to) (u)"
         },
+        {
+            "input": "ningyou",
+            "answer": "にんぎょう",
+            "explanation": "(ni) (n) [(gi) (small yo)] (u)"
+        },
+        {
+            "input": "kakkoii",
+            "answer": "かっこいい",
+            "explanation": "(ka) [(small tsu) (ko)] (i) (i)"
+        }
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": "emoji",
+            "answer": "えもじ",
+            "explanation": "(e) (mo) (ji)"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": "uun",
+            "answer": "ううん",
+            "explanation": "(u) (u) (n)"
+        },
+        {
+            "input": "attakai",
+            "answer": "あったかい",
+            "explanation": "(a) [(small tsu) (ta)] (ka) (i)"
         },
     ]
 }
