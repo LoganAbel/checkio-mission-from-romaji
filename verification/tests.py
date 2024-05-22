@@ -97,5 +97,154 @@ TESTS = {
             "answer": "なんみん",
             "explanation": "nanminn -> なんみん"
         },
+        {
+            "input": ["nyann"],
+            "answer": "にゃん",
+            "explanation": "nyann -> にゃん"
+        },
+        {
+            "input": ["amerika"],
+            "answer": "あめりか",
+            "explanation": "amerika -> あめりか"
+        },
+        {
+            "input": ["sayonara"],
+            "answer": "さよなら",
+            "explanation": "sayonara -> さよなら"
+        },
+        {
+            "input": ["sumimasenn"],
+            "answer": "すみません",
+            "explanation": "sumimasenn -> すみません"
+        },
+        {
+            "input": ["attouteki"],
+            "answer": "あっとうてき",
+            "explanation": "attouteki -> あっとうてき"
+        },
+        {
+            "input": ["chuugoku"],
+            "answer": "ちゅうごく",
+            "explanation": "chuugoku -> ちゅうごく"
+        },
+
+        # punctuation
+        {
+            "input": ["~nakya"],
+            "answer": "~なきゃ",
+            "explanation": "~nakya -> ~なきゃ"
+        },
+        {
+            "input": ["damatte!"],
+            "answer": "だまって!",
+            "explanation": "damatte! -> だまって!"
+        },
+        {
+            "input": ["nani?"],
+            "answer": "なに?",
+            "explanation": "nani? -> なに?"
+        },
+        {
+            "input": ["tokorode..."],
+            "answer": "ところで...",
+            "explanation": "tokorode... -> ところで..."
+        },
+        {
+            "input": ["maru."],
+            "answer": "まる.",
+            "explanation": "maru. -> まる."
+        },
+        {
+            "input": ["2kaime"],
+            "answer": "2かいめ",
+            "explanation": "2kaime -> 2かいめ"
+        },
+
+        # cities / districts
+        {
+            "input": ["toukyou"],
+            "answer": "とうきょう",
+            "explanation": "toukyou -> とうきょう"
+        },
+        {
+            "input": ["yokohama"],
+            "answer": "よこはま",
+            "explanation": "yokohama -> よこはま"
+        },
+        {
+            "input": ["oosaka"],
+            "answer": "おおさか",
+            "explanation": "oosaka -> おおさか"
+        },
+        {
+            "input": ["nagoya"],
+            "answer": "なごや",
+            "explanation": "nagoya -> なごや"
+        },
+        {
+            "input": ["sapporo"],
+            "answer": "さっぽろ",
+            "explanation": "sapporo -> さっぽろ"
+        },
+        {
+            "input": ["fukuoka"],
+            "answer": "ふくおか",
+            "explanation": "fukuoka -> ふくおか"
+        },
+        {
+            "input": ["kawasaki"],
+            "answer": "かわさき",
+            "explanation": "kawasaki -> かわさき"
+        },
+        {
+            "input": ["koube"],
+            "answer": "こうべ",
+            "explanation": "koube -> こうべ"
+        },
+        {
+            "input": ["kyouto"],
+            "answer": "きょうと",
+            "explanation": "kyouto -> きょうと"
+        },
+        {
+            "input": ["saitama"],
+            "answer": "さいたま",
+            "explanation": "saitama -> さいたま"
+        },
+        {
+            "input": ["hiroshima"],
+            "answer": "ひろしま",
+            "explanation": "hiroshima -> ひろしま"
+        },
+        {
+            "input": ["ginza"],
+            "answer": "ぎんざ",
+            "explanation": "ginza -> ぎんざ"
+        },
+        {
+            "input": ["shibuya"],
+            "answer": "しぶや",
+            "explanation": "shibuya -> しぶや"
+        },
+        {
+            "input": ["asakusa"],
+            "answer": "あさくさ",
+            "explanation": "asakusa -> あさくさ"
+        },
+        {
+            "input": ["shinjuku"],
+            "answer": "しんじゅく",
+            "explanation": "shinjuku -> しんじゅく"
+        },
+        {
+            "input": ["harajuku"],
+            "answer": "はらじゅく",
+            "explanation": "harajuku -> はらじゅく"
+        },
+        {
+            "input": ["akihabara"],
+            "answer": "あきはばら",
+            "explanation": "akihabara -> あきはばら"
+        },
     ]
 }
