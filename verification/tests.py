@@ -43,7 +43,7 @@ TESTS = {
             "explanation": ""
         },
         {
-            "input": ["uun"],
+            "input": ["uunn"],
             "answer": "ううん",
             "explanation": ""
         },
