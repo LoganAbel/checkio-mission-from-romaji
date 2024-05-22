@@ -127,6 +127,21 @@ TESTS = {
             "answer": "ちゅうごく",
             "explanation": "chuugoku -> ちゅうごく"
         },
+                {
+            "input": ["hanbunn"],
+            "answer": "はんぶん",
+            "explanation": "hanbunn -> はんぶん"
+        },
+        {
+            "input": ["gyuunyuu"],
+            "answer": "ぎゅうにゅう",
+            "explanation": "gyuunyuu -> ぎゅうにゅう"
+        },
+        {
+            "input": ["fukuzatsu"],
+            "answer": "ふくざつ",
+            "explanation": "fukuzatsu -> ふくざつ"
+        },
 
         # punctuation
         {
@@ -245,21 +260,6 @@ TESTS = {
             "input": ["akihabara"],
             "answer": "あきはばら",
             "explanation": "akihabara -> あきはばら"
-        },
-        {
-            "input": ["hanbun"],
-            "answer": "はんぶn",
-            "explanation": "hanbun -> はんぶn"
-        },
-        {
-            "input": ["gyuunyuu"],
-            "answer": "ぎゅうんゆう",
-            "explanation": "gyuunyuu -> ぎゅうんゆう"
-        },
-        {
-            "input": ["fukuzatsu"],
-            "answer": "ふくざつ",
-            "explanation": "fukuzatsu -> ふくざつ"
         },
     ]
 }
