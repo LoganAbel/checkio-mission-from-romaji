@@ -13,39 +13,89 @@ TESTS = {
         {
             "input": "hiragana",
             "answer": "ひらがな",
-            "explanation": "(hi) (ra) (ga) (na)"
+            "explanation": ""
         },
         {
             "input": "arigatou",
             "answer": "ありがとう",
-            "explanation": "(a) (ri) (ga) (to) (u)"
+            "explanation": ""
         },
         {
             "input": "ningyou",
             "answer": "にんぎょう",
-            "explanation": "(ni) (n) [(gi) (small yo)] (u)"
+            "explanation": "gyo -> gi ~yo"
         },
         {
             "input": "kakkoii",
             "answer": "かっこいい",
-            "explanation": "(ka) [(small tsu) (ko)] (i) (i)"
-        }
+            "explanation": "kko -> x2 ko"
+        },
+        {
+            "input": "ninja",
+            "answer": "にんじゃ",
+            "explanation": "ja -> ji ~ya"
+        },
     ],
     "Extra": [
         {
             "input": "emoji",
             "answer": "えもじ",
-            "explanation": "(e) (mo) (ji)"
+            "explanation": ""
         },
         {
             "input": "uun",
             "answer": "ううん",
-            "explanation": "(u) (u) (n)"
+            "explanation": ""
         },
         {
             "input": "attakai",
             "answer": "あったかい",
-            "explanation": "(a) [(small tsu) (ta)] (ka) (i)"
+            "explanation": "tta -> x2 ta"
+        },
+        {
+            "input": "matte",
+            "answer": "まって",
+            "explanation": "tte -> x2 te"
+        },
+        {
+            "input": "matteiru",
+            "answer": "まっている",
+            "explanation": "tte -> x2 te"
+        },
+        {
+            "input": "happyou",
+            "answer": "はっぴょう",
+            "explanation": "ppyo -> x2 pi ~yo"
+        },
+        {
+            "input": "kocchi",
+            "answer": "こっち",
+            "explanation": "ppyo -> x2 pi ~yo"
+        },
+        {
+            "input": "poketto",
+            "answer": "ぽけっと",
+            "explanation": "tto -> x2 to"
+        },
+        {
+            "input": "yoissho",
+            "answer": "よいっしょ",
+            "explanation": "ssho -> x2 shi ~yo"
+        },
+        {
+            "input": "beddo",
+            "answer": "べっど",
+            "explanation": "ddo -> x2 do"
+        },
+        {
+            "input": "shuppatsu",
+            "answer": "しゅっぱつ",
+            "explanation": "shu -> shi ~yu, ppa -> x2 pa"
+        },
+        {
+            "input": "nanminn",
+            "answer": "なんみん",
+            "explanation": "nmi -> nn mi"
         },
     ]
 }
