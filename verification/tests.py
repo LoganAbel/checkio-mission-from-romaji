@@ -11,89 +11,89 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": "hiragana",
+            "input": ["hiragana"],
             "answer": "ひらがな",
             "explanation": ""
         },
         {
-            "input": "arigatou",
+            "input": ["arigatou"],
             "answer": "ありがとう",
             "explanation": ""
         },
         {
-            "input": "ningyou",
+            "input": ["ningyou"],
             "answer": "にんぎょう",
             "explanation": "gyo -> gi ~yo"
         },
         {
-            "input": "kakkoii",
+            "input": ["kakkoii"],
             "answer": "かっこいい",
             "explanation": "kko -> x2 ko"
         },
         {
-            "input": "ninja",
+            "input": ["ninja"],
             "answer": "にんじゃ",
             "explanation": "ja -> ji ~ya"
         },
     ],
     "Extra": [
         {
-            "input": "emoji",
+            "input": ["emoji"],
             "answer": "えもじ",
             "explanation": ""
         },
         {
-            "input": "uun",
+            "input": ["uun"],
             "answer": "ううん",
             "explanation": ""
         },
         {
-            "input": "attakai",
+            "input": ["attakai"],
             "answer": "あったかい",
             "explanation": "tta -> x2 ta"
         },
         {
-            "input": "matte",
+            "input": ["matte"],
             "answer": "まって",
             "explanation": "tte -> x2 te"
         },
         {
-            "input": "matteiru",
+            "input": ["matteiru"],
             "answer": "まっている",
             "explanation": "tte -> x2 te"
         },
         {
-            "input": "happyou",
+            "input": ["happyou"],
             "answer": "はっぴょう",
             "explanation": "ppyo -> x2 pi ~yo"
         },
         {
-            "input": "kocchi",
+            "input": ["kocchi"],
             "answer": "こっち",
             "explanation": "ppyo -> x2 pi ~yo"
         },
         {
-            "input": "poketto",
+            "input": ["poketto"],
             "answer": "ぽけっと",
             "explanation": "tto -> x2 to"
         },
         {
-            "input": "yoissho",
+            "input": ["yoissho"],
             "answer": "よいっしょ",
             "explanation": "ssho -> x2 shi ~yo"
         },
         {
-            "input": "beddo",
+            "input": ["beddo"],
             "answer": "べっど",
             "explanation": "ddo -> x2 do"
         },
         {
-            "input": "shuppatsu",
+            "input": ["shuppatsu"],
             "answer": "しゅっぱつ",
             "explanation": "shu -> shi ~yu, ppa -> x2 pa"
         },
         {
-            "input": "nanminn",
+            "input": ["nanminn"],
             "answer": "なんみん",
             "explanation": "nmi -> nn mi"
         },
