@@ -246,5 +246,20 @@ TESTS = {
             "answer": "あきはばら",
             "explanation": "akihabara -> あきはばら"
         },
+        {
+            "input": ["hanbun"],
+            "answer": "はんぶn",
+            "explanation": "hanbun -> はんぶn"
+        },
+        {
+            "input": ["gyuunyuu"],
+            "answer": "ぎゅうんゆう",
+            "explanation": "gyuunyuu -> ぎゅうんゆう"
+        },
+        {
+            "input": ["fukuzatsu"],
+            "answer": "ふくざつ",
+            "explanation": "fukuzatsu -> ふくざつ"
+        },
     ]
 }
