@@ -8,13 +8,26 @@
     <img  title="example" src="{{MEDIA}}romanji.png" alt="example" style="max-height: 83px"/>
 </p>
 
+<p>
+    All the characters exept the last column are equivilent to the letters above them in the table. However, the last column has some special rules.
+    
+    <strong>double constanants</strong>
+    <p>in the case of double constanants for p, k, g, t, d, s, or z, the first letter is equivalent to the x2 character. for example, kka = x2 ka = っか</p>
+
+    <strong>small vowels</strong>
+    <p>small vowels (~yo, ~yu, ~ya) can be added to any constanant-i characters by removing the i and adding yo, yu, or ya. for example, gyo = gi ~yo = ぎょ. there is an exeption that shi, ji, and chi do not need a y. For example sho = shi ~yo = しょ</p>
+
+    <strong>n's</strong>
+    <p>in general, 2 n's are required to make ん, with the exception that only one is needed if the next letter is a constanant besides n. For example, ninja = ni nn ji ~ya = にんじゃ</p>
+</p>
+
 <!-- Explain input and output values -->
 <p>
     <strong>Input:</strong> One String
 </p>
 
 <p>
-    <strong>Output:</strong> String
+    <strong>Output:</strong> a String
 </p>
 
 
@@ -27,9 +40,6 @@
 <!-- Here you can explain how it can be used in development -->
 <!-- The section is optional -->
 <p class="for_info_only">
-
-    <strong>How it’s used:</strong>
-    <i>(math is used everywhere)</i>
 </p>
 
 <!-- Here you can explain some constraints for input-->
@@ -37,6 +47,6 @@
 <p>
     <strong>Preconditions:</strong>
     <ul>
-    <li><i>both given ints should be between -1000 and 1000</i></li>
+    <li><i>only characters typable with a qwerty keyboard will be in the input string. symbols should be left alone, but null should be returned if a letter is unable to be turned into hiragana.</i></li>
     </ul>
 </p>
